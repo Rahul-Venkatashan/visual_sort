@@ -1,0 +1,36 @@
+.buttonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2.5vh;
+    height: 17vh;
+    width: 10vw;
+    background-color: rgba(255,255,255,0.05);
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 0.2vh;
+    text-align: center;
+    margin: 2vh;
+    position: relative;
+}
+
+.buttonContainer p{
+    position: absolute;
+    z-index: 2;
+}
+
+.buttonContainer::after{
+    content: ''; 
+    position: absolute;   
+    height: 0vh;
+    width: 100%;
+    top: 0;
+    background-color: #cb3d19;
+    transition: 0.2s all ease-in-out;
+    /* background-color: white; */
+}
+
+.buttonContainer:hover::after{
+    height: 100%;
+}
