@@ -1,0 +1,6 @@
+.bar{
+    height: 70vh; /* This is generated randomly */
+    width: 2.5%; /* This is determined by the number of bars wanted*/
+    /* border: white solid 0.2vh; */
+    bottom: 0;
+}

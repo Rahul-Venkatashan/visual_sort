@@ -2,5 +2,9 @@
     position: relative;
     height: 87vh;
     width: 100vw;
-    background-color: green;
+    background-color: black;
+}
+
+.barContainer{
+    display: flex;
 }
